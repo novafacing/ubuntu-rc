@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<brushes>
+    <brush type="image" size="1" angle="0" imagecolor="false">
+        <image width="2" height="2" format="rgba">3NrJ/9zayQDc2skA3NrJAA==</image>
+        <mask width="2" height="2" format="bitmap">AQEBAQ==</mask>
+        <inktype value="simple" />
+        <inkopacity value="255" />
+        <shade value="" />
+    </brush>
+    <brush type="image" size="1" angle="0" imagecolor="true">
+        <image width="2" height="2" format="rgba">AAAA/wAAAAAAAAAAAAAA/w==</image>
+        <mask width="2" height="2" format="bitmap">AQEBAQ==</mask>
+        <inktype value="simple" />
+        <inkopacity value="255" />
+        <shade value="" />
+    </brush>
+    <brush type="image" angle="0" imagecolor="false">
+        <image width="4" height="4" format="rgba">8qVh//KlYQDypWEA8qVhAPKlYQDypWH/8qVhAPKlYf/ypWEA8qVhAPKlYf/ypWEA8qVhAPKlYf/ypWEA8qVh/w==</image>
+        <mask width="4" height="4" format="bitmap">AQEBAQEBAQEBAQEBAQEBAQ==</mask>
+        <inktype value="simple" />
+        <inkopacity value="255" />
+        <shade value="" />
+    </brush>
+    <brush type="image" size="1" angle="0" imagecolor="true">
+        <image width="2" height="2" format="rgba">AAAA/wAAAAAAAAD/AAAAAA==</image>
+        <mask width="2" height="2" format="bitmap">AQEBAQ==</mask>
+        <inktype value="simple" />
+        <inkopacity value="255" />
+        <shade value="" />
+    </brush>
+    <brush type="image" size="1" angle="0" imagecolor="true">
+        <image width="2" height="2" format="rgba">AAAA/wAAAP8AAAAAAAAAAA==</image>
+        <mask width="2" height="2" format="bitmap">AQEBAQ==</mask>
+        <inktype value="simple" />
+        <inkopacity value="255" />
+        <shade value="" />
+    </brush>
+    <brush type="image" size="1" angle="0" imagecolor="true">
+        <image width="2" height="2" format="rgba">rDIyAKwyMv+sMjL/rDIy/w==</image>
+        <mask width="2" height="2" format="bitmap">AQEBAQ==</mask>
+        <inktype value="simple" />
+        <inkopacity value="255" />
+        <shade value="" />
+    </brush>
+    <brush />
+    <brush />
+    <brush type="image" imagecolor="true">
+        <image width="3" height="3" format="rgba">Okdi/zpHYgA6R2L/OkdiADpHYv86R2IAOkdi/zpHYgA6R2IA</image>
+        <mask width="3" height="3" format="bitmap">AQEBAQEBAQEB</mask>
+    </brush>
+</brushes>

@@ -1,0 +1,19 @@
+{
+  "name": "minimal-dark-theme",
+  "displayName": "Minimal Dark HD",
+  "description": "Minimal theme for Aseprite focused on screen space and clarity. ",
+  "version": "0.8",
+  "author": { "name": "Fernando Angelo", "email": "2dchaos@gmail.com", "url": "https://2dchaos.itch.io/minimal-dark-aseprite-theme" },
+  "contributors": [
+  ],
+  "publisher": "aseprite",
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "Minimal Dark HD", "path": "." }
+    ]
+  }
+}

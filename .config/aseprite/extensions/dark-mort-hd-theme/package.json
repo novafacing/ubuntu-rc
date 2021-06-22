@@ -1,0 +1,19 @@
+{
+  "name": "dark-mort-hd-theme",
+  "displayName": "Dark Mort HD",
+  "description": "A simple UI for Aseprite that fits my need better",
+  "version": "0.7",
+  "author": { "name": "MortMort", "email": "contact@mortmort.net", "url": "https://mortmort.itch.io/aseprite-darkmode" },
+  "contributors": [
+  ],
+  "publisher": "aseprite",
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "Dark Mort HD", "path": "." }
+    ]
+  }
+}

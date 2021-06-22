@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<keyboard version="1">
+    <commands>
+        <key command="ChangeColor" shortcut="[" removed="true">
+            <param name="change" value="decrement-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeColor" shortcut="9">
+            <param name="change" value="decrement-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeColor" shortcut="]" removed="true">
+            <param name="change" value="increment-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeColor" shortcut="0">
+            <param name="change" value="increment-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeBrush" shortcut="=" removed="true">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="+">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="+ Pad">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="]">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="-" removed="true">
+            <param name="change" value="decrement-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="- Pad">
+            <param name="change" value="decrement-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="[">
+            <param name="change" value="decrement-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+1" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="1" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+!">
+            <param name="change" value="custom" />
+            <param name="slot" value="1" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+2" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="2" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+2">
+            <param name="change" value="custom" />
+            <param name="slot" value="2" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+3" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="3" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+#">
+            <param name="change" value="custom" />
+            <param name="slot" value="3" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+4" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="4" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+$">
+            <param name="change" value="custom" />
+            <param name="slot" value="4" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+5" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="5" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+%">
+            <param name="change" value="custom" />
+            <param name="slot" value="5" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+6" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="6" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+6">
+            <param name="change" value="custom" />
+            <param name="slot" value="6" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+7" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="7" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+&amp;">
+            <param name="change" value="custom" />
+            <param name="slot" value="7" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+8" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="8" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+*">
+            <param name="change" value="custom" />
+            <param name="slot" value="8" />
+        </key>
+        <key command="ChangeBrush" shortcut="Alt+9" removed="true">
+            <param name="change" value="custom" />
+            <param name="slot" value="9" />
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+Alt+Shift+Super+(">
+            <param name="change" value="custom" />
+            <param name="slot" value="9" />
+        </key>
+    </commands>
+    <tools />
+    <quicktools />
+    <actions />
+    <wheel />
+</keyboard>
