@@ -1,0 +1,30 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vs-kubernetes": {
+        "vscode-kubernetes.kubectl-path.linux": "/home/novafacing/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.linux": "/home/novafacing/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path.linux": "/home/novafacing/.vs-kubernetes/tools/helm/linux-amd64/helm"
+    },
+    "editor.fontFamily": "'Fira Code', 'Fira Code iCursive S12'",
+    "editor.renderWhitespace": "trailing",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "python.insidersChannel": "weekly",
+    "keyboard.dispatch": "keyCode",
+    "editor.fontLigatures": true,
+    "explorer.confirmDelete": false,
+    "python.formatting.provider": "black"
+}
