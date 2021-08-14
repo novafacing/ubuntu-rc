@@ -27,8 +27,7 @@ set $right l
 
 ### ACTION KEYBINDS ###
 bindsym Mod1+Return exec kitty
-bindsym Mod1+d exec --no-startup-id rofi -show run -run-command "/usr/bin/zsh -c '{cmd}'"
-bindsym Mod1+Shift+d exec --no-startup-id rofi -show drun -run-command zsh -c 'SUDO_ASKPASS=/home/novafacing/.local/bin/askpass-rofi \\"sudo -A {cmd}\\"'
+bindsym Mod1+d exec rofi -show run -run-command "/usr/bin/zsh -c '{cmd}'"
 bindsym XF86MonBrightnessUp exec sudo light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec sudo light -U 5 # decrease screen brightness
 bindsym --release $mod+g exec "maim -s | tee ~/hub/screenshots/$(date '+%Y-%m-%d_%H-%M-%S')_screenshot.png | xclip -selection clipboard -t image/png -i"

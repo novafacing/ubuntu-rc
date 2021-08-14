@@ -13,23 +13,14 @@ COMPLETION_WAITING_DOTS="true"
 
 plugins=(
 	git 
-	zsh-z 
 	cabal 
 	cargo 
-	colorize 
 	command-not-found 
 	docker 
 	docker-compose 
-	dotenv 
-	emoji 
 	extract 
-	fzf 
-	zsh-completions 
-	zsh-autosuggestions
-	zsh-syntax-highlighting
 	nvm
 	sudo
-	vscode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -43,6 +34,9 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 PATH=$PATH:/home/novafacing/.local/bin
+PATH=$PATH:/opt/hopper-v4/bin/
+# export PYTHONSTARTUP=$HOME/.pythonrc.py
+export PATH=$PATH:/usr/local/go/bin
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
@@ -55,4 +49,12 @@ alias gdb="gdb -q"
 alias df="duf"
 alias du="dust"
 alias ls="exa"
+alias copy="xclip -selection clipboard"
+alias paste="xclip -selection clipboard -o"
+alias python3="bpython"
+alias python="bpython"
+# alias docker="podman"
+source ~/.local/bin/z.sh
 
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

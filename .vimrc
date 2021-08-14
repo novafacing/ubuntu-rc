@@ -21,7 +21,6 @@ Plugin 'mbbill/undotree'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'easymotion/vim-easymotion'
-Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'tpope/vim-repeat'
 Bundle 'w0rp/ale'
@@ -391,7 +390,6 @@ let g:tagbar_type_moon = {
             \ ]
             \}
 let g:rainbow_active = 1
-
 
 " VIM FUNCTIONS
 
