@@ -51,8 +51,10 @@ alias du="dust"
 alias ls="exa"
 alias copy="xclip -selection clipboard"
 alias paste="xclip -selection clipboard -o"
-alias python3="bpython"
-alias python="bpython"
+alias python3="ptpython"
+alias python="ptpython"
+alias pm="\python3 -m"
+alias pip="\python3 -m pip"
 # alias docker="podman"
 source ~/.local/bin/z.sh
 
