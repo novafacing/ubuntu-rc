@@ -1,4 +1,3 @@
-alias -a disas = disassemble
 source /home/novafacing/hub/pwndbg/gdbinit.py
 define hook-quit
     set confirm off
@@ -14,3 +13,7 @@ register_libstdcxx_printers(None)
 end
 
 enable pretty-printer .*
+alias -a disas = disassemble
+set print demangle
+set print asm-demangle
+source /home/novafacing/.gdb/gdb_load_rust_pretty_printers.py
