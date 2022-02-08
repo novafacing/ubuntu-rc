@@ -1,6 +1,7 @@
 [user]
 	email = rowanbhart@gmail.com
 	name = novafacing
+	signingkey = E39E5B4622092BFB823413B8675CA660F33DA72F
 [core]
 	editor = nvim
 [pager]
@@ -27,4 +28,4 @@
 	key =  "2166 6411 6223 98E4 D604 1C4A C7DA B792 C0E0 80F4"
 
 [init]
-	defaultBranch = "main"
+	defaultBranch = main
