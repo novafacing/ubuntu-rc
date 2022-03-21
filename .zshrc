@@ -65,6 +65,9 @@ alias copy="xclip -selection clipboard"
 alias paste="xclip -selection clipboard -o"
 alias pm="\python3 -m"
 alias pip="\python3 -m pip"
+alias ptpython="python3 -m ptpython"
+alias fetchall='git branch -r | grep -v "\->" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done && git fetch --all && git pull --all'
+alias pip_reinstall="python3 -m pip install --upgrade --force-reinstall --no-deps"
 # alias docker="podman"
 source ~/.local/bin/z.sh
 
@@ -72,7 +75,6 @@ source ~/.local/bin/z.sh
 export PATH="$PATH:$HOME/.rvm/bin"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export WINEPATH="/usr/x86_64-w64-mingw32/lib;/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix"
-alias fetchall='git branch -r | grep -v "\->" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done && git fetch --all && git pull --all'
 
 
 export PATH="$HOME/.poetry/bin:$PATH"
@@ -83,6 +85,9 @@ export NVM_DIR="/home/$USER/.nvm"
 export DOCKER_BUILDKIT=1
 alias gm=/home/novafacing/hub/v8/v8/tools/dev/gm.py
 
+function hex() {
+    python3 -c "print(hex($1))"
+}
 
 ############################################
 function chess_reset_volumes() {

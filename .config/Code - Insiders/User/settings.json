@@ -205,14 +205,15 @@
         }
     ],
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "yaml": false,
         "plaintext": true,
         "markdown": false,
         "sql": false,
         "c": true,
         "cpp": true,
-        "python": true
+        "python": true,
+        "latex": false,
     },
     "C_Cpp.intelliSenseEngine": "Default",
     "sqltools.highlightQuery": false,

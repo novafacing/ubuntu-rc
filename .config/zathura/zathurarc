@@ -11,7 +11,7 @@ map <C-f> feedkeys F11
 set adjust-open "width"
 set continuous-hist-save true
 set page-padding 10
-set recolor true
+; set recolor true
 set show-hidden true
 set statusbar-home-tilde true
 set selection-clipboard "clipboard"
