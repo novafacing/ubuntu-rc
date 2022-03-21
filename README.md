@@ -2,6 +2,11 @@
 
 Configs for Ubuntu.
 
+## Glamor
+
+![image](https://user-images.githubusercontent.com/30083762/156246974-f3910b25-5d4d-4cb9-bb6d-0bf34d2c04c7.png)
+
+
 ## Prerequisites
 
 
