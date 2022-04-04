@@ -43,6 +43,7 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 PATH=$PATH:/home/novafacing/.local/bin
+PATH=$PATH:/home/novafacing/.local/bin/nu
 PATH=$PATH:/opt/hopper-v4/bin/
 PATH="$PATH:$HOME/hub/AFLplusplus"
 PYTHONPATH=$PYTHONPATH:~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc
