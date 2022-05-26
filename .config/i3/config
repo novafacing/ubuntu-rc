@@ -123,7 +123,7 @@ new_float normal 2
 client.focused #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7
 
 bar {
-    font pango:Fira Code iCursive S12 10
-    status_command ~/.local/bin/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify sensors2 cpu load memory disk:root disk:home disk:data weather github apt datetime -p interval=10 root.path=/ home.path=/home/novafacing/hub data.path=/data battery.showpowerconsumption=true battery.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=West Lafayette' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 sensors2.showcpu=false sensors2.showtemp=true sensors2.chip="pch_cannonlake-virtual-0" sensors2.showfan=true spacer.text="                                                                                                                                                               " 
+    font pango:Fira Code iCursive S12 8
+    status_command ~/.local/bin/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify cpu load memory disk:root weather github apt datetime -p interval=10 root.path=/ home.path=/home/novafacing/hub data.path=/data battery.showpowerconsumption=true battery.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=West Lafayette' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 spacer.text="                                                                                                                                                               " 
 }
 
