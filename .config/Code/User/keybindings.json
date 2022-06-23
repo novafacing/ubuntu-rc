@@ -26,6 +26,11 @@
         "command": "workbench.action.focusActiveEditorGroup"
     },
     {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFolder",
+        "when": "true"
+    },
+    {
         "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
     },
@@ -67,5 +72,10 @@
         "key": "alt+left",
         "command": "-workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile",
+        "when": "true"
     }
 ]

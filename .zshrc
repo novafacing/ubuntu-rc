@@ -14,6 +14,7 @@ export NVM_DIR="/home/$USER/.nvm"
 export WINEPATH="/usr/x86_64-w64-mingw32/lib;/usr/lib/gcc/x86_64-w64-mingw32/9.3-posix"
 export ZSH="$HOME/.oh-my-zsh/"
 export DOCKER_BUILDKIT=1
+export GPG_TTY=$(tty)
 
 CASE_SENSITIVE="true"
 HYPHEN_INSENSITIVE="true"
@@ -39,6 +40,10 @@ plugins=(
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="$PATH:$HOME/install/ghidra/"
+export PATH="$PATH:$HOME/install/binaryninja/"
+export PATH="$PATH:$HOME/install/wally/"
+export PATH="$PATH:/opt/gradle/gradle-7.4.2/bin"
 
 ###########
 # Aliases #
@@ -73,4 +78,9 @@ source /home/novafacing/.local/bin/virtualenvwrapper.sh
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 eval "$(starship init zsh)"
+eval "$(atuin init zsh)"
 
+########################
+# Standalone Settings  #
+########################
+export PATH="$PATH:./node_modules/.bin"
