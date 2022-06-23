@@ -1,7 +1,7 @@
 [user]
 	email = rowanbhart@gmail.com
 	name = novafacing
-	signingkey = E39E5B4622092BFB823413B8675CA660F33DA72F
+    signingkey = 932CBC1506F27120
 [core]
 	editor = nvim
 [pager]
@@ -25,7 +25,6 @@
 	grog = "log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'"
 [signing]
 	signByDefault = true
-	key =  "2166 6411 6223 98E4 D604 1C4A C7DA B792 C0E0 80F4"
 
 [init]
 	defaultBranch = main
