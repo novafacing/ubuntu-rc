@@ -15,6 +15,7 @@ export WINEPATH="/usr/x86_64-w64-mingw32/lib;/usr/lib/gcc/x86_64-w64-mingw32/9.3
 export ZSH="$HOME/.oh-my-zsh/"
 export DOCKER_BUILDKIT=1
 export GPG_TTY=$(tty)
+# export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
 
 CASE_SENSITIVE="true"
 HYPHEN_INSENSITIVE="true"
@@ -43,7 +44,10 @@ export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="$PATH:$HOME/install/ghidra/"
 export PATH="$PATH:$HOME/install/binaryninja/"
 export PATH="$PATH:$HOME/install/wally/"
+export PATH="$PATH:$HOME/install/scripts/"
+export PATH="$PATH:$HOME/install/bin/"
 export PATH="$PATH:/opt/gradle/gradle-7.4.2/bin"
+
 
 ###########
 # Aliases #

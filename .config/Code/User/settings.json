@@ -24,6 +24,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "block",
     "editor.defaultFormatter": "ms-python.python",
+    "editor.experimental.stickyScroll.enabled": true,
     "editor.fontFamily": "'Fira Code iScript'",
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
@@ -248,16 +249,16 @@
         "sql": false,
         "c": true,
         "cpp": true,
-        "python": true,
+        "python": false,
         "java": true
     },
     "[sql]": {
         "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
     "workbench.colorCustomizations": {
-        "statusBar.background": "#282828",
-        "statusBar.noFolderBackground": "#282828",
-        "statusBar.debuggingBackground": "#282828",
+        "statusBar.background": "#32302f",
+        "statusBar.noFolderBackground": "#32302f",
+        "statusBar.debuggingBackground": "#32302f",
         "statusBar.foreground": "#d8a657",
         "statusBar.debuggingForeground": "#d8a657",
         "editorBracketHighlight.foreground1": "#ea6962",
@@ -265,7 +266,9 @@
         "editorBracketHighlight.foreground3": "#e78a4e",
         "editorBracketHighlight.foreground4": "#a9b665",
         "editorBracketHighlight.foreground5": "#bd6f3e",
-        "editorBracketHighlight.foreground6": "#89b482"
+        "editorBracketHighlight.foreground6": "#89b482",
+        "editorStickyScroll.background": "#3c3836",
+        "editorStickyScrollHover.background": "#46413e"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -320,5 +323,13 @@
         "editor.unicodeHighlight.invisibleCharacters": false
     },
     "keyboard.dispatch": "keyCode",
-    "color-highlight.matchRgbWithNoFunction": true
+    "color-highlight.matchRgbWithNoFunction": true,
+    "autoDocstring.docstringFormat": "sphinx",
+    "autoDocstring.guessTypes": true,
+    "autoDocstring.generateDocstringOnEnter": true,
+    "autoDocstring.startOnNewLine": true,
+    "terminal.integrated.fontSize": 12,
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    }
 }
