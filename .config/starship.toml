@@ -1,0 +1,50 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+format="""
+[╭─](fg:#5a524c)$directory$git_branch$git_status$git_metrics$time$username$hostname$python$status$fill
+[╰─ϕ ](fg:#5a524c)"""
+
+command_timeout = 500
+
+add_newline = false
+
+[python]
+format="[ 🐍$virtualenv $version](bg:#282828)"
+
+[git_metrics]
+format="([+$added](fg:#89b482 bg:#7c6f64)[-$deleted](fg:#ea6962 bg:#7c6f64))[ ](fg:#d8a657 bg:#7c6f64)"
+disabled=false
+
+[git_branch]
+format="[ on $symbol$branch(:$remote_branch)](fg:#ddc7a1 bg:#7c6f64)"
+
+[git_status]
+format="[ $all_status$ahead_behind ](fg:#ddc7a1 bg:#7c6f64)"
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+
+[directory]
+format="[](fg:#89b482)[ $path ](fg:#282828 bg:#89b482)[](bg:#7c6f64 fg:#89b482)"
+
+[fill]
+symbol="·"
+style="fg:#46413e"
+
+[status]
+format="[ ](bg:#282828)[$status ](bg:#282828)[](fg:#89b482 bg:#282828)[](fg:#282828)"
+disabled=false
+success_symbol="✓"
+
+[hostname]
+format="[@$hostname](bg:#504945)[](fg:#504945 bg:#282828)"
+ssh_only=false
+
+[username]
+show_always=true
+format="[$user](bg:#504945)"
+disabled=false
+
+[time]
+format="[ $time ](bg:#7c6f64 fg:#45403d)[](fg:#7c6f64 bg:#504945)"
+disabled=false
+

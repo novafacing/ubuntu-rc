@@ -6,7 +6,7 @@ exec --no-startup-id setxkbmap -option caps:escape
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id picom
-exec --no-startup-id feh --bg-scale ~/.wallpaper
+exec --no-startup-id feh --bg-fill ~/.wallpaper
 
 ### VOLUME ###
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -28,8 +28,8 @@ set $right l
 ### ACTION KEYBINDS ###
 bindsym Mod1+Return exec kitty
 bindsym Mod1+d exec rofi -show run -run-command "/usr/bin/zsh -c '{cmd}'"
-bindsym XF86MonBrightnessUp exec sudo light -A 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec sudo light -U 5 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 bindsym --release $mod+g exec "maim -s | tee ~/hub/screenshots/$(date '+%Y-%m-%d_%H-%M-%S')_screenshot.png | xclip -selection clipboard -t image/png -i"
 
 ### I3 KEYBINDS ###
@@ -123,7 +123,7 @@ new_float normal 2
 client.focused #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7
 
 bar {
-    font pango:Fira Code iCursive S12 10
-    status_command ~/.local/bin/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify sensors2 cpu load memory disk:root disk:home disk:data weather github apt datetime -p interval=10 root.path=/ home.path=/home/novafacing/hub data.path=/data battery.showpowerconsumption=true battery.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=West Lafayette' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 sensors2.showcpu=false sensors2.showtemp=true sensors2.chip="pch_cannonlake-virtual-0" sensors2.showfan=true spacer.text="                                                                                                                                                               " 
+    font pango:Fira Code iCursive S12 8
+    status_command ~/.local/bin/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify cpu load memory disk:root weather github apt battery datetime -p interval=10 root.path=/ home.path=/home/novafacing/hub data.path=/data battery-upwer.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=West Lafayette' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 spacer.text="                                                                                                                                                               " 
 }
 

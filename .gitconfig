@@ -1,7 +1,7 @@
 [user]
 	email = rowanbhart@gmail.com
 	name = novafacing
-	signingkey = E39E5B4622092BFB823413B8675CA660F33DA72F
+    signingkey = 932CBC1506F27120
 [core]
 	editor = nvim
 [pager]
@@ -9,15 +9,58 @@
     log = delta
     reflog = delta
     show = delta
+
 [interactive]
     diffFilter = delta --color-only
+
+[delta "gruvbox-material"]
+    commit-style                  = raw
+    file-style                    = bold ul "#d8a657"
+    hunk-header-style             = syntax bold italic "#d8a657"
+    minus-style                   = syntax "#472322"
+    minus-non-emph-style          = syntax "#472322"
+    minus-emph-style              = syntax "#543937"
+    minus-empty-line-marker-style = normal "#472322"
+    zero-style                    = syntax
+    plus-style                    = syntax "#3d4220"
+    plus-non-emph-style           = syntax "#3d4220"
+    plus-emph-style               = syntax "#424a3e"
+    plus-empty-line-marker-style  = normal "#3d4220"
+    grep-file-style               = "#7daea3"
+    grep-line-number-style        = "#7daea3"
+    whitespace-error-style        = reverse "#89b482"
+    blame-palette                 = #32302f #3c3836 #504945
+    true-color                    = auto
+    file-added-label              = added:
+    file-modified-label           = modified:
+    file-removed-label            = removed:
+    file-renamed-label            = renamed:
+    right-arrow                   = ⟶
+    hyperlinks                    = false
+    inspect-raw-lines             = true
+    keep-plus-minus-markers       = false
+    line-numbers                  = true
+    line-numbers-minus-style      = "#ea6962"
+    line-numbers-zero-style       = "#a89984"
+    line-numbers-plus-style       = "#a9b665"
+    line-numbers-left-style       = "#7daea3"
+    line-numbers-right-style      = "#7daea3"
+    line-numbers-left-format      = │{nm:^4}│
+    line-numbers-right-format     = │{np:^4}│
+    max-line-distance             = 0.6
+    max-line-length               = 512
+    diff-stat-align-width         = 48
+    line-fill-method              = ansi
+    navigate                      = false
+    navigate-regex                = 
+    paging                        = auto
+    side-by-side                  = true
+    tabs                          = 4
+
 [delta]
-    features = side-by-side line-numbers decorations
+    features = side-by-side line-numbers decorations gruvbox-material
     whitespace-error-style = 22 reverse
-[delta "decorations"]
-    commit-decoration-style = bold yellow box ul
-    file-style = bold yellow ul
-    file-decoration-style = none
+
 [pull]
 	rebase = false
 [alias]
@@ -25,7 +68,6 @@
 	grog = "log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'"
 [signing]
 	signByDefault = true
-	key =  "2166 6411 6223 98E4 D604 1C4A C7DA B792 C0E0 80F4"
 
 [init]
 	defaultBranch = main
