@@ -22,8 +22,13 @@
     "explorer.confirmDelete": false,
     "python.formatting.provider": "black",
     "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
     "editor.minimap.enabled": false,
-    "editor.inlineSuggest.enabled": true,
+    "files.refactoring.autoSave": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": "always",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -116,7 +121,6 @@
             "args": ["%DOCFILE%"]
         }
     ],
-    "terminal.integrated.fontFamily": "Fira Code iScript",
     "terminal.integrated.scrollback": 100000,
     "codeQL.cli.executablePath": "/home/novafacing/hub/codeql-home/codeql/codeql",
     "codeQL.telemetry.enableTelemetry": false,
@@ -198,7 +202,6 @@
     "debug.internalConsoleOptions": "neverOpen",
     "githubPullRequests.remotes": ["origin"],
     "terminal.integrated.drawBoldTextInBrightColors": false,
-    "terminal.integrated.gpuAcceleration": "on",
     "vim.easymotion": true,
     "vim.smartRelativeLine": true,
     "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf;",
@@ -313,8 +316,16 @@
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": -1,
     "C_Cpp.inactiveRegionBackgroundColor": "#3c3836",
     "C_Cpp.dimInactiveRegions": false,
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format-13"
+    "latex-workshop.view.pdf.invertMode.enabled": "always",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "terminal.integrated.customGlyphs": false,
+    "terminal.integrated.detectLocale": "on",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "terminal.integrated.gpuAcceleration": "on",
+    "editor.inlineSuggest.enabled": true
 }

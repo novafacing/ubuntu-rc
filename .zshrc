@@ -61,7 +61,7 @@ source /home/novafacing/.local/bin/virtualenvwrapper.sh
 alias gdb="gdb -q"
 alias df="duf"
 alias du="dust"
-alias ls="exa"
+alias ls="lsd"
 alias copy="xclip -selection clipboard"
 alias paste="xclip -selection clipboard -o"
 alias pm="\python3 -m"
@@ -113,3 +113,5 @@ PERL5LIB="/home/novafacing/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PER
 PERL_LOCAL_LIB_ROOT="/home/novafacing/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/novafacing/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/novafacing/perl5"; export PERL_MM_OPT;
+
+eval "$(atuin init zsh)"
