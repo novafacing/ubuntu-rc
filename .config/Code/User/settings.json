@@ -24,8 +24,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "block",
     "editor.defaultFormatter": "ms-python.python",
-    "editor.experimental.stickyScroll.enabled": true,
-    "editor.fontFamily": "'Fira Code iScript'",
+    "editor.fontFamily": "'Fisa Code'",
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -43,7 +42,6 @@
     "gruvboxMaterial.darkContrast": "soft",
     "gruvboxMaterial.darkCursor": "yellow",
     "gruvboxMaterial.darkSelection": "green",
-    "gruvboxMaterial.italicKeywords": true,
     "gruvboxMaterial.lightSelection": "yellow",
     "java.codeGeneration.generateComments": true,
     "java.completion.guessMethodArguments": true,
@@ -73,7 +71,7 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira Code iCursive S12",
     "terminal.integrated.gpuAcceleration": "on",
     "terminal.integrated.inheritEnv": true,
     "terminal.integrated.scrollback": 100000,
@@ -242,14 +240,14 @@
         }
     ],
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "yaml": false,
         "plaintext": true,
         "markdown": false,
         "sql": false,
         "c": true,
         "cpp": true,
-        "python": false,
+        "python": true,
         "java": true
     },
     "[sql]": {
@@ -324,12 +322,18 @@
     },
     "keyboard.dispatch": "keyCode",
     "color-highlight.matchRgbWithNoFunction": true,
-    "autoDocstring.docstringFormat": "sphinx",
     "autoDocstring.guessTypes": true,
     "autoDocstring.generateDocstringOnEnter": true,
     "autoDocstring.startOnNewLine": true,
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
     "[latex]": {
         "editor.defaultFormatter": "James-Yu.latex-workshop"
-    }
+    },
+    "sourcegraph.accessToken": "23932e135f07e4525aa54a93552b20636deacb1c",
+    "sourcegraph.url": "https://sourcegraph.com",
+    "sourcegraph.basePath": "/home/novafacing/hub/",
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 4,
+    "gruvboxMaterial.italicKeywords": true,
+    "editor.fontSize": 15
 }

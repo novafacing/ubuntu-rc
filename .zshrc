@@ -15,6 +15,7 @@ export WINEPATH="/usr/x86_64-w64-mingw32/lib;/usr/lib/gcc/x86_64-w64-mingw32/9.3
 export ZSH="$HOME/.oh-my-zsh/"
 export DOCKER_BUILDKIT=1
 export GPG_TTY=$(tty)
+export LD=$(which mold)
 # export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
 
 CASE_SENSITIVE="true"
@@ -33,7 +34,7 @@ plugins=(
     nvm
     sudo
     #tmux
-)
+ zsh-autosuggestions)
 
 #########
 # Paths #
