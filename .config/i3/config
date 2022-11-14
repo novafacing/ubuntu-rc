@@ -114,16 +114,21 @@ bindsym $mod+plus        gaps inner all plus  5
 bindsym $mod+Shift+minus gaps outer all minus 5
 bindsym $mod+Shift+plus  gaps outer all plus  5
 
-bindsym $mod+m floating enable, border normal 2
+bindsym $mod+m floating enable, border none
 bindsym $mod+n floating disable, border none
+for_window [all] border pixel 0
 
 ### CUSTOMIZATION ###
-new_window none
-new_float normal 2
+# new_window none
+#new_float normal 2
+# new_float none
 client.focused #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7 #FFDCB7
+# for_window [class=".*"] floating disable
+default_border none
+default_floating_border none
 
 bar {
     font pango:Fira Code iCursive S12 8
-    status_command ~/install/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify cpu load memory disk:root disk:home weather github apt battery datetime -p interval=10 root.path=/ home.path=/home/novafacing/ data.path=/data battery-upwer.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=West Lafayette' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 spacer.text="                                                                                                                                                               " 
+    status_command ~/install/bumblebee-status/bumblebee-status -t gruvbox-powerline -m spacer spacer error title git spotify cpu load memory disk:root disk:home weather github datetime -p interval=10 root.path=/ home.path=/home/novafacing/ data.path=/data battery-upwer.showremaining=true github.token=$(cat ~/.secrets/github_token) 'weather.location=West Lafayette' weather.showminmax=true pulseaudio.autostart=true pulseaudio.percent_change=5 pulseaudio.showbars=1 spacer.theme.bg=#504945 spacer.text="                                                                                                                                                                                                                                                                                                                                                                                                                                                                           " 
 }
 

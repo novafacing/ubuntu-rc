@@ -5,7 +5,7 @@ configuration {
         font: "Fira Code 11";
         show-icons: true;
         dpi: 200;
-        kb-mode-next: "Tab";
+        /* kb-mode-next: "Tab"; */
         kb-mode-previous: "Shift+Tab";
         kb-row-up: "Up,Control+k";
         kb-row-down: "Down,Control+j";

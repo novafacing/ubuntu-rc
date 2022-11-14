@@ -1,61 +1,39 @@
 {
     "C_Cpp.clang_format_fallbackStyle": "{Language:        Cpp, BasedOnStyle:  LLVM, AccessModifierOffset: -4, AlignAfterOpenBracket: Align, AlignArrayOfStructures: None, AlignConsecutiveMacros: None, AlignConsecutiveAssignments: None, AlignConsecutiveBitFields: None, AlignConsecutiveDeclarations: None, AlignEscapedNewlines: Right, AlignOperands:   Align, AlignTrailingComments: true, AllowAllArgumentsOnNextLine: true, AllowAllConstructorInitializersOnNextLine: true, AllowAllParametersOfDeclarationOnNextLine: true, AllowShortEnumsOnASingleLine: true, AllowShortBlocksOnASingleLine: Never, AllowShortCaseLabelsOnASingleLine: false, AllowShortFunctionsOnASingleLine: All, AllowShortLambdasOnASingleLine: All, AllowShortIfStatementsOnASingleLine: Never, AllowShortLoopsOnASingleLine: false, AlwaysBreakAfterDefinitionReturnType: None, AlwaysBreakAfterReturnType: None, AlwaysBreakBeforeMultilineStrings: false, AlwaysBreakTemplateDeclarations: MultiLine, BinPackArguments: true, BinPackParameters: true, BraceWrapping: {,   AfterCaseLabel:  false,   AfterClass:      false,   AfterControlStatement: Never,   AfterEnum:       false,   AfterFunction:   false,   AfterNamespace:  false,   AfterObjCDeclaration: false,   AfterStruct:     false,   AfterUnion:      false,   AfterExternBlock: false,   BeforeCatch:     false,   BeforeElse:      false,   BeforeLambdaBody: false,   BeforeWhile:     false,   IndentBraces:    false,   SplitEmptyFunction: true,   SplitEmptyRecord: true,   SplitEmptyNamespace: true, }, BreakBeforeBinaryOperators: None, BreakBeforeConceptDeclarations: true, BreakBeforeBraces: Attach, BreakBeforeInheritanceComma: false, BreakInheritanceList: BeforeColon, BreakBeforeTernaryOperators: true, BreakConstructorInitializersBeforeComma: false, BreakConstructorInitializers: BeforeColon, BreakAfterJavaFieldAnnotations: false, BreakStringLiterals: true, ColumnLimit:     88, CompactNamespaces: false, ConstructorInitializerAllOnOneLineOrOnePerLine: false, ConstructorInitializerIndentWidth: 4, ContinuationIndentWidth: 4, Cpp11BracedListStyle: true, DeriveLineEnding: true, DerivePointerAlignment: false, DisableFormat:   false, EmptyLineAfterAccessModifier: Never, EmptyLineBeforeAccessModifier: LogicalBlock, ExperimentalAutoDetectBinPacking: false, FixNamespaceComments: true, IncludeBlocks:   Preserve, IncludeIsMainRegex: '(Test)?$', IncludeIsMainSourceRegex: '', IndentAccessModifiers: false, IndentCaseLabels: true, IndentCaseBlocks: false, IndentGotoLabels: true, IndentPPDirectives: None, IndentExternBlock: AfterExternBlock, IndentRequires:  false, IndentWidth:     4, IndentWrappedFunctionNames: false, InsertTrailingCommas: None, JavaScriptQuotes: Leave, JavaScriptWrapImports: true, KeepEmptyLinesAtTheStartOfBlocks: true, LambdaBodyIndentation: Signature, MacroBlockBegin: '', MacroBlockEnd:   '', MaxEmptyLinesToKeep: 1, NamespaceIndentation: None, ObjCBinPackProtocolList: Auto, ObjCBlockIndentWidth: 2, ObjCBreakBeforeNestedBlockParam: true, ObjCSpaceAfterProperty: false, ObjCSpaceBeforeProtocolList: true, PenaltyBreakAssignment: 2, PenaltyBreakBeforeFirstCallParameter: 19, PenaltyBreakComment: 300, PenaltyBreakFirstLessLess: 120, PenaltyBreakString: 1000, PenaltyBreakTemplateDeclaration: 10, PenaltyExcessCharacter: 1000000, PenaltyReturnTypeOnItsOwnLine: 60, PenaltyIndentedWhitespace: 0, PointerAlignment: Right, PPIndentWidth:   -1, ReferenceAlignment: Pointer, ReflowComments:  true, ShortNamespaceLines: 1, SortIncludes:    CaseSensitive, SortJavaStaticImport: Before, SortUsingDeclarations: true, SpaceAfterCStyleCast: false, SpaceAfterLogicalNot: false, SpaceAfterTemplateKeyword: true, SpaceBeforeAssignmentOperators: true, SpaceBeforeCaseColon: false, SpaceBeforeCpp11BracedList: false, SpaceBeforeCtorInitializerColon: true, SpaceBeforeInheritanceColon: true, SpaceBeforeParens: ControlStatements, SpaceAroundPointerQualifiers: Default, SpaceBeforeRangeBasedForLoopColon: true, SpaceInEmptyBlock: false, SpaceInEmptyParentheses: false, SpacesBeforeTrailingComments: 1, SpacesInAngles:  Never, SpacesInConditionalStatement: false, SpacesInContainerLiterals: true, SpacesInCStyleCastParentheses: false, SpacesInLineCommentPrefix: {,   Minimum:         1,   Maximum:         1, }, SpacesInParentheses: false, SpacesInSquareBrackets: false, SpaceBeforeSquareBrackets: false, BitFieldColonSpacing: Both, Standard:        Latest, TabWidth:        4, UseCRLF:         false, UseTab:          Never}",
-    "C_Cpp.clang_format_sortIncludes": true,
-    "C_Cpp.default.cStandard": "c17",
-    "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.dimInactiveRegions": false,
-    "C_Cpp.formatting": "clangFormat",
-    "C_Cpp.inactiveRegionBackgroundColor": "#3c3836",
     "C_Cpp.intelliSenseEngine": "Disabled",
-    "better-comments.highlightPlainText": true,
     "clangd.arguments": ["--enable-config"],
     "clangd.checkUpdates": true,
-    "clangd.path": "/usr/bin/clangd",
-    "cmake.configureOnOpen": true,
-    "codeQL.cli.executablePath": "/home/novafacing/hub/codeql-home/codeql/codeql",
-    "codeQL.telemetry.enableTelemetry": false,
+    "clangd.path": "/home/novafacing/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/15.0.3/clangd_15.0.3/bin/clangd",
     "color-highlight.languages": ["json", "!python"],
     "color-highlight.markerType": "dot-after",
-    "debug.internalConsoleOptions": "neverOpen",
     "debug.onTaskErrors": "debugAnyway",
-    "editor.acceptSuggestionOnEnter": "off",
     "editor.autoClosingQuotes": "never",
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "smooth",
     "editor.cursorStyle": "block",
     "editor.defaultFormatter": "ms-python.python",
     "editor.fontFamily": "'Fisa Code'",
-    "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
-    "editor.rulers": [88],
     "editor.suggestSelection": "first",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
     "files.maxMemoryForLargeFilesMB": 8192,
-    "githubPullRequests.remotes": ["origin"],
     "gruvboxMaterial.colorfulSyntax": true,
     "gruvboxMaterial.darkContrast": "soft",
     "gruvboxMaterial.darkCursor": "yellow",
     "gruvboxMaterial.darkSelection": "green",
+    "gruvboxMaterial.italicKeywords": true,
     "gruvboxMaterial.lightSelection": "yellow",
     "java.codeGeneration.generateComments": true,
     "java.completion.guessMethodArguments": true,
     "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/novafacing/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
-    "javascript.updateImportsOnFileMove.enabled": "always",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "prettier.documentSelectors": ["*.js", "*.ts"],
     "prettier.printWidth": 88,
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "all",
     "prettier.vueIndentScriptAndStyle": true,
-    "python.defaultInterpreterPath": "python3",
-    "python.formatting.provider": "black",
     "python.languageServer": "Pylance",
     "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": true,
@@ -69,41 +47,225 @@
     "terminal.external.linuxExec": "kitty",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.drawBoldTextInBrightColors": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.fontFamily": "Fira Code iCursive S12",
-    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.fontFamily": "'Fisa Code'",
     "terminal.integrated.inheritEnv": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.restoreWindows": "none",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "keyboard.dispatch": "keyCode",
+    "editor.fontLigatures": true,
+    "editor.rulers": [88],
+    "explorer.confirmDelete": false,
+    "python.formatting.provider": "black",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "editor.minimap.enabled": false,
+    "files.refactoring.autoSave": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": "always",
     "terminal.integrated.scrollback": 100000,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "vim.easymotion": true,
-    "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf;",
+    "codeQL.cli.executablePath": "/home/novafacing/hub/codeql-home/codeql/codeql",
+    "codeQL.telemetry.enableTelemetry": false,
+    "workbench.sideBar.location": "right",
+    "cmake.configureOnOpen": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "python.defaultInterpreterPath": "python3",
+    "better-comments.highlightPlainText": true,
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.formatting": "clangFormat",
+    "debug.internalConsoleOptions": "neverOpen",
+    "githubPullRequests.remotes": ["origin"],
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["g", "p"],
+            "commands": [
+                {
+                    "command": "editor.action.marker.next"
+                }
+            ]
+        }
+    ],
     "vim.smartRelativeLine": true,
     "vim.sneak": true,
     "vim.sneakReplacesF": true,
     "vim.statusBarColorControl": false,
-    "vim.statusBarColors.commandlineinprogress": ["#282828", "#89b482"],
-    "vim.statusBarColors.insert": ["#282828", "#d8a657"],
+    "vim.textwidth": 88,
     "vim.statusBarColors.normal": ["#282828", "#d3869b"],
+    "vim.statusBarColors.insert": ["#282828", "#d8a657"],
+    "vim.statusBarColors.visual": ["#282828", "#7daea3"],
+    "vim.statusBarColors.visualline": ["#282828", "#7daea3"],
+    "vim.statusBarColors.visualblock": ["#282828", "#7daea3"],
     "vim.statusBarColors.replace": ["#282828", "#e78a4e"],
     "vim.statusBarColors.searchinprogressmode": ["#282828", "#89b482"],
-    "vim.statusBarColors.visual": ["#282828", "#7daea3"],
-    "vim.statusBarColors.visualblock": ["#282828", "#7daea3"],
-    "vim.statusBarColors.visualline": ["#282828", "#7daea3"],
-    "vim.textwidth": 88,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.menuBarVisibility": "toggle",
-    "window.restoreWindows": "none",
-    "workbench.colorTheme": "Gruvbox Material Dark",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+    "vim.statusBarColors.commandlineinprogress": ["#282828", "#89b482"],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/novafacing/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "C_Cpp.inactiveRegionBackgroundColor": "#3c3836",
+    "C_Cpp.dimInactiveRegions": false,
+    "latex-workshop.view.pdf.invertMode.enabled": "always",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "terminal.integrated.customGlyphs": false,
+    "terminal.integrated.detectLocale": "on",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "editor.inlineSuggest.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 3,
+    "cmake.generator": "Unix Makefiles",
+    "customizeUI.activityBar": "bottom",
+    "customizeUI.activityBarHideSettings": true,
+    "customizeUI.titleBar": "inline",
+    "customizeUI.stylesheet": {
+        ".monaco-pane-view .monaco-split-view2.vertical>.monaco-scrollable-element.mac": "height: calc(100% - 90px) !important;",
+        ".monaco-split-view2.vertical>.monaco-scrollable-element.mac>.split-view-container>.split-view-view.visible>.part.sidebar.left>.content": "height: 100vh !important",
+        "div.monaco-grid-view > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div.split-view-view.visible > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div:nth-child(1) > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div:nth-child(2)": "bottom: 0px !important; top: unset !important; height: 48px !important",
+        ".monaco-pane-view .monaco-scrollable-element.mac > div.split-view-container > div:not(:first-child)": "transform: translateY(-20px) !important",
+        ".part.activitybar.left": "background-color: unset !important",
+        "body.activity-bar-at-bottom .monaco-workbench .activitybar > .content .composite-bar": "margin-left: 0 !important",
+        "body.inline-title-bar .part>.title>.title-actions .action-label": "min-width: unset !important",
+        ".monaco-workbench .part.sidebar>.title>.title-label h2": "display: none;",
+        ".part.activitybar.left.bordered": "border: 1px solid transparent!important",
+        ".activitybar .composite-bar > .monaco-action-bar": "padding: 0 10px 0 6px",
+        ".activitybar .composite-bar > .monaco-action-bar > .actions-container": "justify-content: space-evenly; max-width: 300px; border: 1px solid #ffffff1c; border-radius: 6px",
+        ".pane-header": "padding-left: 10px;",
+        "body.activity-bar-at-bottom .monaco-workbench .activitybar > .content": "flex-direction: column !important"
     },
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#32302f",
+        "statusBar.noFolderBackground": "#32302f",
+        "statusBar.debuggingBackground": "#32302f",
+        "statusBar.foreground": "#d8a657",
+        "statusBar.debuggingForeground": "#d8a657",
+        "editorBracketHighlight.foreground1": "#ea6962",
+        "editorBracketHighlight.foreground2": "#d3869b",
+        "editorBracketHighlight.foreground3": "#e78a4e",
+        "editorBracketHighlight.foreground4": "#a9b665",
+        "editorBracketHighlight.foreground5": "#bd6f3e",
+        "editorBracketHighlight.foreground6": "#89b482",
+        "editorStickyScroll.background": "#3c3836",
+        "editorStickyScrollHover.background": "#46413e"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "comment",
+                "scope": ["comment"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Keyword Storage",
+                "scope": ["keyword", "keyword.control", "storage"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[plaintext]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false
+    },
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "sql": false,
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": true
     },
     "files.exclude": {
         "**/.classpath": true,
@@ -192,148 +354,13 @@
             "args": ["%DOCFILE%"]
         }
     ],
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#3498DB",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#474747",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "*",
-            "color": "#98C379",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": true,
-        "markdown": false,
-        "sql": false,
-        "c": true,
-        "cpp": true,
-        "python": true,
-        "java": true
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
     },
-    "[sql]": {
-        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
     },
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#32302f",
-        "statusBar.noFolderBackground": "#32302f",
-        "statusBar.debuggingBackground": "#32302f",
-        "statusBar.foreground": "#d8a657",
-        "statusBar.debuggingForeground": "#d8a657",
-        "editorBracketHighlight.foreground1": "#ea6962",
-        "editorBracketHighlight.foreground2": "#d3869b",
-        "editorBracketHighlight.foreground3": "#e78a4e",
-        "editorBracketHighlight.foreground4": "#a9b665",
-        "editorBracketHighlight.foreground5": "#bd6f3e",
-        "editorBracketHighlight.foreground6": "#89b482",
-        "editorStickyScroll.background": "#3c3836",
-        "editorStickyScrollHover.background": "#46413e"
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "comment",
-                "scope": ["comment"],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "name": "Keyword Storage",
-                "scope": ["keyword", "keyword.control", "storage"],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
-    "[c]": {
-        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[cpp]": {
-        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java"
-    },
-    "[plaintext]": {
-        "editor.unicodeHighlight.ambiguousCharacters": false,
-        "editor.unicodeHighlight.invisibleCharacters": false
-    },
-    "keyboard.dispatch": "keyCode",
-    "color-highlight.matchRgbWithNoFunction": true,
-    "autoDocstring.guessTypes": true,
-    "autoDocstring.generateDocstringOnEnter": true,
-    "autoDocstring.startOnNewLine": true,
-    "terminal.integrated.fontSize": 13,
-    "[latex]": {
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
-    },
-    "sourcegraph.accessToken": "23932e135f07e4525aa54a93552b20636deacb1c",
-    "sourcegraph.url": "https://sourcegraph.com",
-    "sourcegraph.basePath": "/home/novafacing/hub/",
-    "editor.stickyScroll.enabled": true,
-    "editor.stickyScroll.maxLineCount": 4,
-    "gruvboxMaterial.italicKeywords": true,
-    "editor.fontSize": 15
+    "mesonbuild.configureOnOpen": false,
+    "window.menuBarVisibility": "toggle"
 }
